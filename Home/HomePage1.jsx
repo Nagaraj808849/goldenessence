@@ -66,7 +66,7 @@ export default function HomePage1() {
   ];
 
   return (
-    <div className="w-full overflow-x-hidden">
+    <div className="w-full overflow-x-hidden scroll-smooth">
     
      
       <section
@@ -367,7 +367,7 @@ export default function HomePage1() {
       </section>
 
       {/* Footer */}
-      <footer className="w-full bg-gray-900 text-white py-12">
+      <footer id="contact" className="w-full bg-gray-900 text-white py-12">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             {/* About */}
