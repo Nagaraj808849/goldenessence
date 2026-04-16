@@ -4,8 +4,8 @@
 import { ChevronRight, ChevronLeft, UtensilsCrossed, Phone, Mail, MapPin, ShoppingCart, Home, Menu, HelpCircle, User, LogOut, X } from "lucide-react";
 import { useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { useAuth } from "../src/context/useAuth";
-import { COLORS } from "../src/constants/COLORS";
+import { useAuth } from "../../context/useAuth";
+import { COLORS } from "../../constants/COLORS";
 
 
 

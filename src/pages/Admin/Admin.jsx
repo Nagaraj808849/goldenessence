@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { BarChart3, Users, ShoppingCart, TrendingUp, Settings, LogOut, Menu as MenuIcon, X, PlusCircle, ClipboardList } from "lucide-react";
-import { useAuth } from "../src/context/useAuth";
+import { useAuth } from "../../context/useAuth";
 import axios from "axios";
-import { API_ENDPOINTS } from "../src/config";
+import { API_ENDPOINTS } from "../../config";
 
 
 export default function Admin() {

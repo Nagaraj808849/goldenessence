@@ -1,5 +1,5 @@
-﻿import React from "react";
-import videoFile from "../src/assets/HomeVed.mp4";
+import React from "react";
+import videoFile from "../../assets/HomeVed.mp4";
 import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
 

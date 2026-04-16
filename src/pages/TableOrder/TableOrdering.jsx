@@ -3,8 +3,8 @@ import axios from "axios";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { ArrowLeft, CheckCircle, Users, Calendar, User, X } from "lucide-react";
-import { useAuth } from "../src/context/useAuth"; 
-import { API_ENDPOINTS } from "../src/config";
+import { useAuth } from "../../context/useAuth"; 
+import { API_ENDPOINTS } from "../../config";
 
 const TableOrder = () => {
   const navigate = useNavigate();

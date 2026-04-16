@@ -16,16 +16,16 @@ axios.interceptors.request.use(
   }
 );
 
-import Login from "../Login/Login";
-import Signup from "../Login/Signup";
-import Frontpage from "../Home/Frontpage";
-import TableOrder from "../TableOrder/TableOrdering.jsx";
-import PaymentPage from "../Payment/PaymentDetails.jsx";
-import UserDash from "../UserDash/UserDash.jsx";
-import Admin from "../AbminDash/Admin.jsx";
-import Homepage1 from "../Home/HomePage1.jsx";
-import Menu1 from "../Menu/Menu1.jsx";
-import CartPage from "../Menu/Cartpage.jsx";
+import Login from "./pages/Login/Login";
+import Signup from "./pages/Login/Signup";
+import Frontpage from "./pages/Home/Frontpage";
+import TableOrder from "./pages/TableOrder/TableOrdering.jsx";
+import PaymentPage from "./pages/Payment/PaymentDetails.jsx";
+import UserDash from "./pages/UserDash/UserDash.jsx";
+import Admin from "./pages/Admin/Admin.jsx";
+import Homepage1 from "./pages/Home/HomePage1.jsx";
+import Menu1 from "./pages/Menu/Menu1.jsx";
+import CartPage from "./pages/Menu/Cartpage.jsx";
 import { AuthProvider } from "./context/AuthContext";
 
 

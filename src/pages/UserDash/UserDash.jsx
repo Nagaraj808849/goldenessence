@@ -14,7 +14,7 @@ import {
   Home
 } from "lucide-react";
 import axios from "axios";
-import { API_ENDPOINTS } from "../src/config";
+import { API_ENDPOINTS } from "../../config";
 
 export default function UserDash() {
   const [active, setActive] = useState("profile");

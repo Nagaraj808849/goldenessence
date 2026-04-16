@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { FaEnvelope, FaLock } from "react-icons/fa";
 import axios from "axios";
-import { useAuth } from "../src/context/useAuth";
-import { API_ENDPOINTS } from "../src/config";
+import { useAuth } from "../../context/useAuth";
+import { API_ENDPOINTS } from "../../config";
 
 const Login = () => {
   const navigate = useNavigate();

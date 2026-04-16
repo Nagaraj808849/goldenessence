@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import { API_ENDPOINTS } from "../src/config";
+import { API_ENDPOINTS } from "../../config";
 import { CreditCard, Wallet, Apple, Landmark, CheckCircle, ChevronRight, X, UtensilsCrossed } from "lucide-react";
 import { FaGooglePay } from "react-icons/fa";
 
