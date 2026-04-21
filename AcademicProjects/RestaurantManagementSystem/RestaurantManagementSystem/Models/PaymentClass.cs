@@ -5,7 +5,7 @@ namespace RestaurantManagementSystem.Models
         public int payment_id { get; set; }
         public int orderid { get; set; }
         public DateTime payment_date { get; set; }
-        public decimal amount { get; set; }
+        public int amount { get; set; }
         public string? method { get; set; }
     }
 }

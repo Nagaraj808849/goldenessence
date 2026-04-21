@@ -19,7 +19,6 @@ namespace RestaurantManagementSystem.Controllers
         }
 
         
-        [AllowAnonymous]
         [HttpPost]
         public IActionResult InsertPayment(PaymentClass payment)
         {
